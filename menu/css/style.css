@@ -1,0 +1,43 @@
+body {
+  background: url(/Image.jpg) no-repeat;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: black;
+}
+
+body ul :hover ul li {
+  display: block;
+}
+
+body ul li {
+  float: left;
+  width: 244px;
+  height: 40px;
+  background-color: black;
+  opacity: .8;
+  line-height: 40px;
+  text-align: center;
+  font-size: 20px;
+}
+
+body ul li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+body ul li a :hover {
+  background-color: green;
+  cursor: pointer;
+}
+
+body ul li ul li {
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */
